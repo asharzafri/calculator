@@ -23,9 +23,9 @@ public class CalculatorTest {
         }
 
 
-        @Test
+       @Test
         void testdiv(){
-                assertEquals(5,calc.add(10,2));
+                assertEquals(1,calc.div(10,10));
 
         }
 
