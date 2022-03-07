@@ -19,7 +19,7 @@ public class CalculatorTest {
         @Test
         void testadd(){
                 assertEquals(10,calc.add(5,5));
-                System.out.println("add funtion worked");
+
         }
 
 
