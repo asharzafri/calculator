@@ -16,6 +16,12 @@ public class CalculatorTest {
                 assertEquals(7,calc.sub(17, 10));
         }
 
+        @Test
+        void testadd(){
+                assertEquals(10,calc.add(5,5));
+                System.out.println("add funtion worked");
+        }
+
 
 
 }
