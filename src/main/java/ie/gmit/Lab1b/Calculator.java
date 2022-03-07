@@ -19,8 +19,8 @@ public class Calculator {
 
         return total;
     }
-    public int sub(int num1, int num2){
-        int total = num1 -num2;
+    public int sub(int fnum1, int fnum2){
+        int total = fnum1 - fnum2;
         return total;
     }
 }
