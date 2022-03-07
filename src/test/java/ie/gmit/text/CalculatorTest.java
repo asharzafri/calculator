@@ -23,5 +23,11 @@ public class CalculatorTest {
         }
 
 
+        @Test
+        void testdiv(){
+                assertEquals(2,calc.add(10,5));
+
+        }
+
 
 }
