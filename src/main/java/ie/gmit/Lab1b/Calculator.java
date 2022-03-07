@@ -5,16 +5,22 @@
 package ie.gmit.Lab1b;
 
 public class Calculator {
-    int num1, num2;
 
-    public Calculator(int num1, int num2) {
-        this.num1 = num1;
-        this.num2 = num2;
+
+    public Calculator() {
+
     }
 
-    public int add(){
+
+
+
+    public int add(int num1, int num2){
         int total = num1+ num2;
 
+        return total;
+    }
+    public int sub(int fnum1, int fnum2){
+        int total = fnum1 - fnum2;
         return total;
     }
 }
