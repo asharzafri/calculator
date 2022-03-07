@@ -18,10 +18,16 @@ public class CalculatorTest {
 
         @Test
         void testadd(){
-                assertEquals(10,calc.add(5,5));
+                assertEquals(15,calc.add(10,5));
 
         }
 
+
+       @Test
+        void testdiv(){
+                assertEquals(1,calc.div(10,10));
+
+        }
 
 
 }

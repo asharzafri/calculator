@@ -24,4 +24,9 @@ public class Calculator {
         int total = fnum1 - fnum2;
         return total;
     }
+    public int div(int num1, int num2){
+        int total = num1 / num2;
+        return total;
+    }
+
 }
